@@ -1,0 +1,41 @@
+
+/* Styling for GarageBooking Plugin */
+#garage-booking-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: #f9f9f9;
+}
+
+#garage-booking-form h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+#garage-booking-form label {
+    display: block;
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+#garage-booking-form input,
+#garage-booking-form select,
+#garage-booking-form button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#garage-booking-form button {
+    background-color: #0073aa;
+    color: #fff;
+    cursor: pointer;
+}
+
+#garage-booking-form button:hover {
+    background-color: #005177;
+}
